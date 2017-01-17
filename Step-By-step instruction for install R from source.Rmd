@@ -24,7 +24,7 @@ wget http://www.zlib.net/zlib-1.2.8.tar.gz
 tar -xvzf zlib-1.2.8.tar.gz
 cd zlib-1.2.8
 
-./configure –prefix=$HOME/packages
+./configure --prefix=$HOME/packages
 
 vi Makefile:
   CC= gcc  -fPIC
