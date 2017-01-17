@@ -2,7 +2,7 @@
 
 ```{bash}
 module load java/1.8.0_60
-module load gcc/4.9.3
+module load gcc
 
 # add the following settings to $HOME/.bashrc, then source $HOME/.bashrc
 export PATH=$HOME/packages/bin:$PATH
